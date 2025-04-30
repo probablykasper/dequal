@@ -1,6 +1,6 @@
 var has = Object.prototype.hasOwnProperty;
 
-function find(iter, tar, key) {
+function find(iter, tar) {
 	for (key of iter.keys()) {
 		if (dequal(key, tar)) return key;
 	}
